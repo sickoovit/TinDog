@@ -1,33 +1,51 @@
-h1 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    color: white;
-    padding: 40px 0;
-    margin-top: 50px;
-}
-
-ul li {
-    padding: 0 20px;
+body {
     font-family: 'Montserrat';
 }
 
-.container {
-    padding: 0;
+/* Navigation Bar */
+
+.navbar-main {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding-inline: 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
 }
 
 .navbar-brand {
     font-family: 'ubuntu';
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
     margin-left: 0;
+}
+
+/* Top Container */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-#title {
-    background-color: #ff4c68;
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.btn-download {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup {
+    width: 60%;
+    transform: rotate(25deg);
 }
