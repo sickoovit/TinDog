@@ -1,3 +1,33 @@
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+ul li {
+    padding: 0 20px;
+    font-family: 'Montserrat';
+}
+
+.container {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-weight: 500;
+    font-size: 2rem;
+    margin-left: 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
 #title {
     background-color: #ff4c68;
 }
