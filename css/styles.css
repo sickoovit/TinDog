@@ -31,7 +31,7 @@ body {
     color: white;
 }
 
-.container-fluid {
+.top-container {
     padding: 3% 15%;
 }
 
@@ -48,4 +48,38 @@ h1 {
 .iphone-mockup {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Container */
+
+#features {
+    background-color: white;
+    padding-block: 5rem;
+}
+
+.feature-col {
+    text-align: center;
+    margin-block: 5%;
+}
+
+.feature-col i {
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin-block: 5%;
+}
+
+.feature-col i:hover {
+    color: #ff4c68;
+}
+
+.feature-col h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature-col p {
+    color: #8f8f8f;
+    width: 50%;
+    margin-inline: auto;
 }
