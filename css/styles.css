@@ -2,6 +2,12 @@ body {
     font-family: 'Montserrat';
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 /* Navigation Bar */
 
 .navbar-main {
@@ -28,17 +34,11 @@ body {
 
 #title {
     background-color: #ff4c68;
-    color: white;
+    color: #fff;
 }
 
 .top-container {
     padding: 3% 15%;
-}
-
-h1 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 .btn-download {
@@ -53,8 +53,8 @@ h1 {
 /* Features Container */
 
 #features {
-    background-color: white;
-    padding-block: 5rem;
+    background-color: #fff;
+    padding: 6% 10%;
 }
 
 .feature-col {
@@ -80,6 +80,86 @@ h1 {
 
 .feature-col p {
     color: #8f8f8f;
-    width: 50%;
+    width: 70%;
     margin-inline: auto;
+}
+
+/* Testimonials Container */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials-container {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-block-end: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 7% 5%;
+    text-align: center;
+}
+
+.pricing-header {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-description {
+    color: #8f8f8f;
+}
+
+.card-deck {
+    padding-block: 3%;
+}
+
+.card {
+    padding-inline: 0;
+    margin-inline: 1%;
+}
+
+.pricing-plan {
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 5%;
+}
+
+.card-body h2 {
+    margin-block-end: 4%;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 120%;
 }
