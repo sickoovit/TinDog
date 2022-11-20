@@ -12,16 +12,30 @@
             rel="stylesheet"
         />
 
-        <!-- Bootstrap 5.2.2 -->
+        <!-- Bootstrap 4.4 -->
+
+        <!-- Bootstrap CSS -->
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
+
+        <!-- Bootstrap JS -->
         <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
         ></script>
 
@@ -42,14 +56,14 @@
             <div class="top-container container-fluid">
                 <!-- Nav Bar -->
 
-                <nav class="navbar navbar-expand-md navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark">
                     <div class="container navbar-main">
                         <a class="navbar-brand light" href="/">tindog</a>
                         <button
                             class="navbar-toggler"
                             type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarMain"
+                            data-toggle="collapse"
+                            data-target="#navbarMain"
                             aria-controls="navbarMain"
                             aria-expanded="false"
                             aria-label="Toggle navigation"
@@ -57,11 +71,9 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarMain">
-                            <ul class="navbar-nav ms-auto">
+                            <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact"
-                                        >Contact</a
-                                    >
+                                    <a class="nav-link" href="#cta">Contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#pricing"
@@ -83,23 +95,23 @@
                     <div class="col-lg-6">
                         <h1>Meet new and interesting dogs nearby.</h1>
                         <button
-                            class="btn btn-dark btn-lg btn-download"
+                            class="btn btn-dark btn-lg btn-download-title"
                             type="button"
                         >
                             <i class="fa-brands fa-apple"></i>
                             Download
                         </button>
                         <button
-                            class="btn btn-outline-light btn-lg btn-download"
+                            class="btn btn-outline-light btn-lg btn-download-title"
                             type="button"
                         >
                             <i class="fa-brands fa-google-play"></i>
                             Download
                         </button>
                     </div>
-                    <div class="col-lg-6 mx-auto d-block">
+                    <div class="col-lg-6 d-none d-lg-block">
                         <img
-                            class="iphone-mockup mx-auto d-block"
+                            class="iphone-mockup"
                             src="images/iphone6.png"
                             alt="iphone-mockup"
                         />
@@ -134,7 +146,7 @@
 
         <section id="testimonials">
             <div
-                id="testimonial-carousel"
+                id="testimonialsCarousel"
                 class="carousel slide"
                 data-ride="false"
             >
@@ -166,7 +178,7 @@
                 </div>
                 <a
                     class="carousel-control-prev"
-                    href="#testimonial-carousel"
+                    href="#testimonialsCarousel"
                     role="button"
                     data-slide="prev"
                 >
@@ -178,7 +190,7 @@
 
                 <a
                     class="carousel-control-next"
-                    href="#testimonial-carousel"
+                    href="#testimonialsCarousel"
                     role="button"
                     data-slide="next"
                 >
@@ -275,15 +287,36 @@
         <!-- Call to Action -->
 
         <section id="cta">
-            <h3>Find the True Love of Your Dog's Life Today.</h3>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <h3 class="cta-description">
+                Find the True Love of Your Dog's Life Today.
+            </h3>
+            <button class="btn btn-dark btn-lg btn-download-cta" type="button">
+                <i class="fa-brands fa-apple"></i>
+                Download
+            </button>
+            <button class="btn btn-light btn-lg btn-download-cta" type="button">
+                <i class="fa-brands fa-google-play"></i>
+                Download
+            </button>
         </section>
 
         <!-- Footer -->
 
         <footer id="footer">
-            <p>© Copyright TinDog. 2022 Omar Osman.</p>
+            <button class="btn contact-footer" type="button">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="btn contact-footer" type="button">
+                <i class="fa-brands fa-facebook-f"></i>
+            </button>
+            <button class="btn contact-footer" type="button">
+                <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button class="btn contact-footer" type="button">
+                <i class="fa-solid fa-envelope"></i>
+            </button>
+
+            <p class="credits">© Copyright TinDog. 2022 Omar Osman.</p>
         </footer>
     </body>
 </html>

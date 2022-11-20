@@ -9,6 +9,9 @@ h1 {
 }
 
 /* Navigation Bar */
+.navbar {
+    padding-inline: 0;
+}
 
 .navbar-main {
     padding: 0 0 4.5rem;
@@ -38,16 +41,18 @@ h1 {
 }
 
 .top-container {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
-.btn-download {
+.btn-download-title {
     margin: 5% 3% 5% 0;
 }
 
 .iphone-mockup {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Container */
@@ -55,6 +60,7 @@ h1 {
 #features {
     background-color: #fff;
     padding: 6% 10%;
+    position: relative;
 }
 
 .feature-col {
@@ -108,7 +114,7 @@ h1 {
     line-height: 1.5;
 }
 
-/* Press section */
+/* Press Section */
 
 #press {
     background-color: #ef8172;
@@ -121,7 +127,7 @@ h1 {
     margin: 20px 20px 50px;
 }
 
-/* Pricing section */
+/* Pricing Section */
 
 #pricing {
     padding: 7% 5%;
@@ -158,4 +164,42 @@ h1 {
 .price {
     font-weight: 600;
     font-size: 120%;
+}
+
+/* CTA Section */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 8% 15%;
+}
+
+.cta-description {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-block-end: 5%;
+}
+
+.btn-download-cta {
+    margin-inline: 1.5%;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding-block: 5%;
+}
+
+.contact-footer {
+    margin-block: 2% 1.5%;
+}
+
+.credits {
+    color: #7c7c7c;
+    font-family: 'Montserrat';
 }
